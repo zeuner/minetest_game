@@ -73,6 +73,7 @@ local function book_on_use(itemstack, user)
 			"button[4.9,7.6;0.8,0.8;book_next;>]"
 	end
 
+	print("DEBUG book formsepec " .. formspec)
 	minetest.show_formspec(player_name, "default:book", formspec)
 	return itemstack
 end
